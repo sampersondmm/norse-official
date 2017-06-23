@@ -1,0 +1,25 @@
+.navbar {
+    border: 3px solid black;
+    height:110px;
+    
+    &__list-item {
+        list-style: none;
+        float:left;
+        display:block;
+        padding:10px 0;
+    }
+    
+    &__list-links {
+        text-decoration: none;
+        border-right: 1px solid black;
+        padding:7px 15px;
+    }
+    
+    &__list-links:hover {
+        background:black;
+        color:white;
+    }
+    
+    
+    
+}
